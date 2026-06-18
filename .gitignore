@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+
+.env
+
+.streamlit/
+
+playbook_final.json
+stream_request.json
+stream_response.txt
+
+.idea/
+.vscode/
+
+.DS_Store

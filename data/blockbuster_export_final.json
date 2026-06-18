@@ -1,0 +1,3628 @@
+{
+  "corridors": [
+    "Airport New South Road",
+    "Bannerghata Road",
+    "Bellary Road 1",
+    "Bellary Road 2",
+    "CBD 1",
+    "CBD 2",
+    "Hennur Main Road",
+    "Hosur Road",
+    "IRR(Thanisandra road)",
+    "Magadi Road",
+    "Mysore Road",
+    "ORR East 1",
+    "ORR East 2",
+    "ORR North 1",
+    "ORR North 2",
+    "ORR West 1",
+    "Old Airport Road",
+    "Old Madras Road",
+    "Tumkur Road",
+    "Varthur Road",
+    "West of Chord Road"
+  ],
+  "corridor_centroids": [
+    {
+      "corridor": "Airport New South Road",
+      "latitude": 13.028476852380953,
+      "longitude": 77.63402224269842
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "latitude": 12.896567045480769,
+      "longitude": 77.59792302485576
+    },
+    {
+      "corridor": "Bellary Road 1",
+      "latitude": 13.016890076293246,
+      "longitude": 77.5864151949588
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "latitude": 13.105955984643801,
+      "longitude": 77.60327070794196
+    },
+    {
+      "corridor": "CBD 1",
+      "latitude": 12.980940851999998,
+      "longitude": 77.60666222799999
+    },
+    {
+      "corridor": "CBD 2",
+      "latitude": 12.98356557744898,
+      "longitude": 77.59478823622449
+    },
+    {
+      "corridor": "Hennur Main Road",
+      "latitude": 13.051385713829786,
+      "longitude": 77.62623186872341
+    },
+    {
+      "corridor": "Hosur Road",
+      "latitude": 12.915348423939394,
+      "longitude": 77.62472910006734
+    },
+    {
+      "corridor": "IRR(Thanisandra road)",
+      "latitude": 12.93750642368421,
+      "longitude": 77.62694487126316
+    },
+    {
+      "corridor": "Magadi Road",
+      "latitude": 12.985094990740741,
+      "longitude": 77.52315729888889
+    },
+    {
+      "corridor": "Mysore Road",
+      "latitude": 12.958088393282969,
+      "longitude": 77.5641858289011
+    },
+    {
+      "corridor": "ORR East 1",
+      "latitude": 12.928247835371902,
+      "longitude": 77.66898339892562
+    },
+    {
+      "corridor": "ORR East 2",
+      "latitude": 12.975979768961748,
+      "longitude": 77.69592296759562
+    },
+    {
+      "corridor": "ORR North 1",
+      "latitude": 13.024644010145986,
+      "longitude": 77.63734321259123
+    },
+    {
+      "corridor": "ORR North 2",
+      "latitude": 13.041927711489363,
+      "longitude": 77.5588224812766
+    },
+    {
+      "corridor": "ORR West 1",
+      "latitude": 12.921011866566266,
+      "longitude": 77.55895797307228
+    },
+    {
+      "corridor": "Old Airport Road",
+      "latitude": 12.958863577297297,
+      "longitude": 77.66190645243243
+    },
+    {
+      "corridor": "Old Madras Road",
+      "latitude": 12.981009590116733,
+      "longitude": 77.62958177840467
+    },
+    {
+      "corridor": "Tumkur Road",
+      "latitude": 13.03145855635371,
+      "longitude": 77.53366288997817
+    },
+    {
+      "corridor": "Varthur Road",
+      "latitude": 12.9565573436,
+      "longitude": 77.71609161613333
+    },
+    {
+      "corridor": "West of Chord Road",
+      "latitude": 12.982936885406975,
+      "longitude": 77.54627674447674
+    }
+  ],
+  "graph_edges": [
+    {
+      "source": "Airport New South Road",
+      "target": "ORR North 1",
+      "distance_km": 1.86
+    },
+    {
+      "source": "Airport New South Road",
+      "target": "Hennur Main Road",
+      "distance_km": 4.1
+    },
+    {
+      "source": "Airport New South Road",
+      "target": "Old Madras Road",
+      "distance_km": 7.22
+    },
+    {
+      "source": "Airport New South Road",
+      "target": "CBD 1",
+      "distance_km": 8.49
+    },
+    {
+      "source": "Airport New South Road",
+      "target": "CBD 2",
+      "distance_km": 8.72
+    },
+    {
+      "source": "Airport New South Road",
+      "target": "Bellary Road 2",
+      "distance_km": 13.42
+    },
+    {
+      "source": "Bannerghata Road",
+      "target": "ORR West 1",
+      "distance_km": 6.35
+    },
+    {
+      "source": "Bannerghata Road",
+      "target": "Hosur Road",
+      "distance_km": 5.47
+    },
+    {
+      "source": "Bannerghata Road",
+      "target": "IRR(Thanisandra road)",
+      "distance_km": 8.94
+    },
+    {
+      "source": "Bannerghata Road",
+      "target": "Mysore Road",
+      "distance_km": 9.96
+    },
+    {
+      "source": "Bannerghata Road",
+      "target": "CBD 1",
+      "distance_km": 10.91
+    },
+    {
+      "source": "Bellary Road 1",
+      "target": "CBD 2",
+      "distance_km": 5.12
+    },
+    {
+      "source": "Bellary Road 1",
+      "target": "ORR North 2",
+      "distance_km": 5.8
+    },
+    {
+      "source": "Bellary Road 1",
+      "target": "CBD 1",
+      "distance_km": 6.15
+    },
+    {
+      "source": "Bellary Road 1",
+      "target": "Tumkur Road",
+      "distance_km": 9.04
+    },
+    {
+      "source": "Bellary Road 1",
+      "target": "Old Madras Road",
+      "distance_km": 8.45
+    },
+    {
+      "source": "Bellary Road 1",
+      "target": "Bellary Road 2",
+      "distance_km": 10.71
+    },
+    {
+      "source": "Bellary Road 1",
+      "target": "Hennur Main Road",
+      "distance_km": 8.88
+    },
+    {
+      "source": "Bellary Road 2",
+      "target": "ORR North 2",
+      "distance_km": 11.86
+    },
+    {
+      "source": "Bellary Road 2",
+      "target": "Hennur Main Road",
+      "distance_km": 12.68
+    },
+    {
+      "source": "Bellary Road 2",
+      "target": "CBD 2",
+      "distance_km": 14.86
+    },
+    {
+      "source": "CBD 1",
+      "target": "CBD 2",
+      "distance_km": 1.98
+    },
+    {
+      "source": "CBD 1",
+      "target": "Old Madras Road",
+      "distance_km": 4.0
+    },
+    {
+      "source": "CBD 1",
+      "target": "IRR(Thanisandra road)",
+      "distance_km": 7.05
+    },
+    {
+      "source": "CBD 1",
+      "target": "Mysore Road",
+      "distance_km": 6.49
+    },
+    {
+      "source": "CBD 1",
+      "target": "Hosur Road",
+      "distance_km": 11.03
+    },
+    {
+      "source": "CBD 1",
+      "target": "ORR North 1",
+      "distance_km": 8.87
+    },
+    {
+      "source": "CBD 1",
+      "target": "ORR West 1",
+      "distance_km": 10.04
+    },
+    {
+      "source": "CBD 1",
+      "target": "Old Airport Road",
+      "distance_km": 7.94
+    },
+    {
+      "source": "CBD 2",
+      "target": "Old Madras Road",
+      "distance_km": 5.41
+    },
+    {
+      "source": "CBD 2",
+      "target": "Mysore Road",
+      "distance_km": 5.48
+    },
+    {
+      "source": "CBD 2",
+      "target": "West of Chord Road",
+      "distance_km": 6.88
+    },
+    {
+      "source": "CBD 2",
+      "target": "Hennur Main Road",
+      "distance_km": 10.39
+    },
+    {
+      "source": "CBD 2",
+      "target": "Magadi Road",
+      "distance_km": 10.37
+    },
+    {
+      "source": "CBD 2",
+      "target": "ORR North 1",
+      "distance_km": 9.1
+    },
+    {
+      "source": "CBD 2",
+      "target": "ORR North 2",
+      "distance_km": 9.12
+    },
+    {
+      "source": "CBD 2",
+      "target": "ORR West 1",
+      "distance_km": 10.02
+    },
+    {
+      "source": "CBD 2",
+      "target": "Tumkur Road",
+      "distance_km": 10.32
+    },
+    {
+      "source": "Hennur Main Road",
+      "target": "ORR North 1",
+      "distance_km": 4.56
+    },
+    {
+      "source": "Hennur Main Road",
+      "target": "ORR North 2",
+      "distance_km": 10.05
+    },
+    {
+      "source": "Hosur Road",
+      "target": "IRR(Thanisandra road)",
+      "distance_km": 6.31
+    },
+    {
+      "source": "Hosur Road",
+      "target": "ORR East 1",
+      "distance_km": 8.05
+    },
+    {
+      "source": "Hosur Road",
+      "target": "ORR West 1",
+      "distance_km": 8.5
+    },
+    {
+      "source": "Hosur Road",
+      "target": "Varthur Road",
+      "distance_km": 13.4
+    },
+    {
+      "source": "IRR(Thanisandra road)",
+      "target": "Old Airport Road",
+      "distance_km": 6.04
+    },
+    {
+      "source": "IRR(Thanisandra road)",
+      "target": "Old Madras Road",
+      "distance_km": 6.67
+    },
+    {
+      "source": "IRR(Thanisandra road)",
+      "target": "ORR East 1",
+      "distance_km": 9.53
+    },
+    {
+      "source": "IRR(Thanisandra road)",
+      "target": "Varthur Road",
+      "distance_km": 12.46
+    },
+    {
+      "source": "Magadi Road",
+      "target": "West of Chord Road",
+      "distance_km": 3.29
+    },
+    {
+      "source": "Magadi Road",
+      "target": "Tumkur Road",
+      "distance_km": 6.73
+    },
+    {
+      "source": "Magadi Road",
+      "target": "Mysore Road",
+      "distance_km": 7.51
+    },
+    {
+      "source": "Magadi Road",
+      "target": "ORR North 2",
+      "distance_km": 9.48
+    },
+    {
+      "source": "Mysore Road",
+      "target": "West of Chord Road",
+      "distance_km": 5.88
+    },
+    {
+      "source": "Mysore Road",
+      "target": "ORR West 1",
+      "distance_km": 5.43
+    },
+    {
+      "source": "ORR East 1",
+      "target": "Varthur Road",
+      "distance_km": 9.22
+    },
+    {
+      "source": "ORR East 1",
+      "target": "ORR East 2",
+      "distance_km": 10.26
+    },
+    {
+      "source": "ORR East 1",
+      "target": "Old Airport Road",
+      "distance_km": 10.52
+    },
+    {
+      "source": "ORR East 2",
+      "target": "Varthur Road",
+      "distance_km": 5.6
+    },
+    {
+      "source": "ORR East 2",
+      "target": "Old Airport Road",
+      "distance_km": 7.07
+    },
+    {
+      "source": "ORR East 2",
+      "target": "Old Madras Road",
+      "distance_km": 9.68
+    },
+    {
+      "source": "ORR East 2",
+      "target": "ORR North 1",
+      "distance_km": 10.64
+    },
+    {
+      "source": "ORR North 1",
+      "target": "Old Madras Road",
+      "distance_km": 7.6
+    },
+    {
+      "source": "ORR North 2",
+      "target": "Tumkur Road",
+      "distance_km": 4.56
+    },
+    {
+      "source": "ORR North 2",
+      "target": "West of Chord Road",
+      "distance_km": 8.3
+    },
+    {
+      "source": "ORR West 1",
+      "target": "West of Chord Road",
+      "distance_km": 9.66
+    },
+    {
+      "source": "Old Airport Road",
+      "target": "Varthur Road",
+      "distance_km": 6.65
+    },
+    {
+      "source": "Old Airport Road",
+      "target": "Old Madras Road",
+      "distance_km": 5.95
+    },
+    {
+      "source": "Tumkur Road",
+      "target": "West of Chord Road",
+      "distance_km": 7.38
+    }
+  ],
+  "capacity": {
+    "Airport New South Road": 5400,
+    "Bannerghata Road": 5400,
+    "Bellary Road 1": 5400,
+    "Bellary Road 2": 5400,
+    "CBD 1": 5400,
+    "CBD 2": 5400,
+    "Hennur Main Road": 5400,
+    "Hosur Road": 5400,
+    "IRR(Thanisandra road)": 5400,
+    "Magadi Road": 5400,
+    "Mysore Road": 5400,
+    "ORR East 1": 5400,
+    "ORR East 2": 5400,
+    "ORR North 1": 5400,
+    "ORR North 2": 5400,
+    "ORR West 1": 5400,
+    "Old Airport Road": 5400,
+    "Old Madras Road": 5400,
+    "Tumkur Road": 5400,
+    "Varthur Road": 5400,
+    "West of Chord Road": 5400
+  },
+  "demand_share_compressed": {
+    "Airport New South Road": 0.5157873569865656,
+    "Bannerghata Road": 0.9371995798566123,
+    "Bellary Road 1": 1.601012649582214,
+    "Bellary Road 2": 1.265085921548438,
+    "CBD 1": 0.32491549428041566,
+    "CBD 2": 0.6432998580911303,
+    "Hennur Main Road": 0.6300345187942566,
+    "Hosur Road": 1.1198984470348299,
+    "IRR(Thanisandra road)": 0.6333769004386329,
+    "Magadi Road": 1.0129862596680628,
+    "Mysore Road": 1.7533398654259638,
+    "ORR East 1": 1.0108997770003476,
+    "ORR East 2": 0.8790750673633757,
+    "ORR North 1": 1.0756616845093143,
+    "ORR North 2": 0.9961720419590063,
+    "ORR West 1": 0.8372486612303137,
+    "Old Airport Road": 0.5590057532204128,
+    "Old Madras Road": 1.0417583242736508,
+    "Tumkur Road": 1.3906990460621877,
+    "Varthur Road": 0.5627701442600349,
+    "West of Chord Road": 0.8522453517348096
+  },
+  "diurnal_factor": {
+    "0": 0.1,
+    "1": 0.08,
+    "2": 0.06,
+    "3": 0.05,
+    "4": 0.06,
+    "5": 0.1,
+    "6": 0.25,
+    "7": 0.55,
+    "8": 0.85,
+    "9": 0.9,
+    "10": 0.7,
+    "11": 0.65,
+    "12": 0.7,
+    "13": 0.68,
+    "14": 0.65,
+    "15": 0.7,
+    "16": 0.8,
+    "17": 0.95,
+    "18": 1.0,
+    "19": 0.85,
+    "20": 0.6,
+    "21": 0.4,
+    "22": 0.25,
+    "23": 0.15
+  },
+  "peak_demand_scale": 2925.8446129916156,
+  "station_locations": [
+    {
+      "police_station": "Adugodi",
+      "latitude": 12.933851865333333,
+      "longitude": 77.6194345375
+    },
+    {
+      "police_station": "Ashok Nagar",
+      "latitude": 12.96227854730539,
+      "longitude": 77.60984614185628
+    },
+    {
+      "police_station": "Banashankari",
+      "latitude": 12.923206667058823,
+      "longitude": 77.55685243441177
+    },
+    {
+      "police_station": "Banaswadi",
+      "latitude": 13.000783136528925,
+      "longitude": 77.65670869586778
+    },
+    {
+      "police_station": "Basavanagudi",
+      "latitude": 12.942620511702128,
+      "longitude": 77.57138083638297
+    },
+    {
+      "police_station": "Bellandur",
+      "latitude": 12.91906079631579,
+      "longitude": 77.6697793548421
+    },
+    {
+      "police_station": "Byatarayanapura",
+      "latitude": 12.949339703333333,
+      "longitude": 77.53420475367348
+    },
+    {
+      "police_station": "Chamarajpet",
+      "latitude": 12.965557016542554,
+      "longitude": 77.56366912851064
+    },
+    {
+      "police_station": "Chikkabanavara",
+      "latitude": 13.048084843504272,
+      "longitude": 77.50626080239317
+    },
+    {
+      "police_station": "Chikkajala",
+      "latitude": 13.164904378472222,
+      "longitude": 77.64050909833333
+    },
+    {
+      "police_station": "City Market",
+      "latitude": 12.961732052222223,
+      "longitude": 77.57835003444444
+    },
+    {
+      "police_station": "Cubbon Park",
+      "latitude": 12.978168624950982,
+      "longitude": 77.59555243857842
+    },
+    {
+      "police_station": "Devanahalli Airport",
+      "latitude": 13.237648990833334,
+      "longitude": 77.70180380055555
+    },
+    {
+      "police_station": "Electronic City",
+      "latitude": 12.85140812801653,
+      "longitude": 77.66464176429751
+    },
+    {
+      "police_station": "HAL Old Airport",
+      "latitude": 12.953018143314448,
+      "longitude": 77.69726701254957
+    },
+    {
+      "police_station": "HSR Layout",
+      "latitude": 12.910225844827586,
+      "longitude": 77.63160690715516
+    },
+    {
+      "police_station": "Halasur",
+      "latitude": 12.969269432413792,
+      "longitude": 77.62588046689656
+    },
+    {
+      "police_station": "Halasuru Gate",
+      "latitude": 12.967182980750854,
+      "longitude": 77.58725223621161
+    },
+    {
+      "police_station": "Hebbala",
+      "latitude": 13.04402546637037,
+      "longitude": 77.59572280896296
+    },
+    {
+      "police_station": "Hennuru",
+      "latitude": 13.044736910295203,
+      "longitude": 77.63324411295203
+    },
+    {
+      "police_station": "High ground",
+      "latitude": 12.988777518777779,
+      "longitude": 77.58560112794444
+    },
+    {
+      "police_station": "Hulimavu",
+      "latitude": 12.872833716982758,
+      "longitude": 77.6045444311207
+    },
+    {
+      "police_station": "J.P. Nagar",
+      "latitude": 12.903281966935484,
+      "longitude": 77.59022278629033
+    },
+    {
+      "police_station": "Jalahalli",
+      "latitude": 13.04346798628866,
+      "longitude": 77.54870985489691
+    },
+    {
+      "police_station": "Jayanagara",
+      "latitude": 12.920923593409093,
+      "longitude": 77.58770979301136
+    },
+    {
+      "police_station": "Jeevanbheemanagar",
+      "latitude": 12.97338404305785,
+      "longitude": 77.64506167338843
+    },
+    {
+      "police_station": "Jnanabharathi",
+      "latitude": 12.960789596923076,
+      "longitude": 77.50781327846153
+    },
+    {
+      "police_station": "K.G. Halli",
+      "latitude": 13.030608808333334,
+      "longitude": 77.62033612777778
+    },
+    {
+      "police_station": "K.R. Pura",
+      "latitude": 13.016152656973684,
+      "longitude": 77.70573023122807
+    },
+    {
+      "police_station": "K.S. Layout",
+      "latitude": 12.909227646162789,
+      "longitude": 77.55790983011629
+    },
+    {
+      "police_station": "Kamakshipalya",
+      "latitude": 12.987768709406392,
+      "longitude": 77.5083153879452
+    },
+    {
+      "police_station": "Kengeri",
+      "latitude": 12.913604197000002,
+      "longitude": 77.4852449295
+    },
+    {
+      "police_station": "Kodigehalli",
+      "latitude": 13.047090135904059,
+      "longitude": 77.58578318132842
+    },
+    {
+      "police_station": "Madiwala",
+      "latitude": 12.917823054863389,
+      "longitude": 77.62138875519126
+    },
+    {
+      "police_station": "Magadi Road",
+      "latitude": 12.973660142086331,
+      "longitude": 77.55649520294963
+    },
+    {
+      "police_station": "Mahadevapura",
+      "latitude": 12.99278235675,
+      "longitude": 77.71789089058333
+    },
+    {
+      "police_station": "Malleshwaram",
+      "latitude": 13.005118298734176,
+      "longitude": 77.5618700721519
+    },
+    {
+      "police_station": "Mico Layout",
+      "latitude": 12.91339087112069,
+      "longitude": 77.60488569698276
+    },
+    {
+      "police_station": "Peenya",
+      "latitude": 13.038821935955056,
+      "longitude": 77.51459824264045
+    },
+    {
+      "police_station": "Pulikeshinagar(F.Town)",
+      "latitude": 12.996808634264706,
+      "longitude": 77.61425351808823
+    },
+    {
+      "police_station": "R.T. Nagar",
+      "latitude": 13.0155003208,
+      "longitude": 77.5895836416
+    },
+    {
+      "police_station": "Rajajinagar",
+      "latitude": 13.005000025490196,
+      "longitude": 77.54090340882352
+    },
+    {
+      "police_station": "Sadashivanagar",
+      "latitude": 13.01033361372093,
+      "longitude": 77.57970774418605
+    },
+    {
+      "police_station": "Sheshadripuram",
+      "latitude": 12.986802289830509,
+      "longitude": 77.57270779152543
+    },
+    {
+      "police_station": "Shivajinagar",
+      "latitude": 12.982987294252874,
+      "longitude": 77.60246497471265
+    },
+    {
+      "police_station": "Thalagattapura",
+      "latitude": 12.87212059883721,
+      "longitude": 77.54911999627907
+    },
+    {
+      "police_station": "Upparpet",
+      "latitude": 12.976804618333334,
+      "longitude": 77.577189205
+    },
+    {
+      "police_station": "V.V.Puram (C.Pet)",
+      "latitude": 12.958232068648648,
+      "longitude": 77.57295234567569
+    },
+    {
+      "police_station": "Vijayanagara",
+      "latitude": 12.97928141137931,
+      "longitude": 77.5421877913793
+    },
+    {
+      "police_station": "Whitefield",
+      "latitude": 12.950566692146893,
+      "longitude": 77.74097531644068
+    },
+    {
+      "police_station": "Wilson Garden",
+      "latitude": 12.947510804711538,
+      "longitude": 77.59253288673077
+    },
+    {
+      "police_station": "Yelahanka",
+      "latitude": 13.101366387154256,
+      "longitude": 77.5959675706649
+    },
+    {
+      "police_station": "Yeshwanthpura",
+      "latitude": 13.026194803189965,
+      "longitude": 77.54479660318997
+    }
+  ],
+  "junction_candidates": [
+    {
+      "corridor": "Airport New South Road",
+      "junction": "HennurRoad-ORR Junc",
+      "count": 13
+    },
+    {
+      "corridor": "Airport New South Road",
+      "junction": "HennurRd-DavisRdJunction",
+      "count": 2
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "ArakereGateJunc",
+      "count": 14
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "BilekahalliJunc",
+      "count": 14
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "HulimaveRd-BanneraghattaRdJunc",
+      "count": 9
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "JayadevaHospitalJunc",
+      "count": 8
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "MeenakshiMallJunc",
+      "count": 8
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "SagarHospitalJunc",
+      "count": 5
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "DairyCircle",
+      "count": 4
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "J D MaraJunc",
+      "count": 3
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "28thMainJayanagarJunc",
+      "count": 1
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "GorappanapalyaJunction",
+      "count": 1
+    },
+    {
+      "corridor": "Bannerghata Road",
+      "junction": "SwagathMainRd-EastEndRdJunc",
+      "count": 1
+    },
+    {
+      "corridor": "Bellary Road 1",
+      "junction": "MekhriCircle",
+      "count": 63
+    },
+    {
+      "corridor": "Bellary Road 1",
+      "junction": "HebbalFlyoverJunc",
+      "count": 25
+    },
+    {
+      "corridor": "Bellary Road 1",
+      "junction": "KodigehalliCross",
+      "count": 9
+    },
+    {
+      "corridor": "Bellary Road 1",
+      "junction": "LRDE Junction",
+      "count": 9
+    },
+    {
+      "corridor": "Bellary Road 1",
+      "junction": "BasaweshwaraCircle",
+      "count": 5
+    },
+    {
+      "corridor": "Bellary Road 1",
+      "junction": "ChandraLayoutJunc-nearWaterTank",
+      "count": 1
+    },
+    {
+      "corridor": "Bellary Road 1",
+      "junction": "YelhankaCircle",
+      "count": 1
+    },
+    {
+      "corridor": "Bellary Road 1",
+      "junction": "YeshwanthpuraCircle",
+      "count": 1
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "YelhankaCircle",
+      "count": 30
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "BagalurCrossJunc",
+      "count": 27
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "SantheCircle",
+      "count": 25
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "YelhankaBypass",
+      "count": 19
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "JakkurCrossJunction",
+      "count": 18
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "KogilluCrossJunc",
+      "count": 15
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "Batrayanapura(Amrutahalli)Junction",
+      "count": 14
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "HunsemarammanahalliJunction",
+      "count": 7
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "SadahalliGateJunc(AirportRd)",
+      "count": 7
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "KodigehalliCross",
+      "count": 1
+    },
+    {
+      "corridor": "Bellary Road 2",
+      "junction": "YeshwanthpuraCircle",
+      "count": 1
+    },
+    {
+      "corridor": "CBD 1",
+      "junction": "TyagiHengalvarayaJunc(DickensonRd)",
+      "count": 5
+    },
+    {
+      "corridor": "CBD 1",
+      "junction": "Shivajinagar(BRV)Junction",
+      "count": 3
+    },
+    {
+      "corridor": "CBD 1",
+      "junction": "SafinaPlazaJunc",
+      "count": 1
+    },
+    {
+      "corridor": "CBD 2",
+      "junction": "IndianExpressJunction",
+      "count": 14
+    },
+    {
+      "corridor": "CBD 2",
+      "junction": "PoliceTimmaiahCircle(GPO)",
+      "count": 14
+    },
+    {
+      "corridor": "CBD 2",
+      "junction": "CoffeeBoardJunc",
+      "count": 8
+    },
+    {
+      "corridor": "CBD 2",
+      "junction": "MinskSquare(CTO Junction)",
+      "count": 8
+    },
+    {
+      "corridor": "CBD 2",
+      "junction": "YeshwanthpuraCircle",
+      "count": 3
+    },
+    {
+      "corridor": "CBD 2",
+      "junction": "QueensStatueCircle",
+      "count": 2
+    },
+    {
+      "corridor": "Hennur Main Road",
+      "junction": "Nagavara-ORR Junction",
+      "count": 18
+    },
+    {
+      "corridor": "Hennur Main Road",
+      "junction": "Narayanapura cross, Hegde nagar",
+      "count": 3
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "AyyappaTempleJunc",
+      "count": 46
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "Bommanahalli",
+      "count": 26
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "CMP GateJunc",
+      "count": 20
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "NaganathapuraJunction",
+      "count": 12
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "SarjapurRd-St JohnsRdJunc",
+      "count": 10
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "SilkBoardJunc",
+      "count": 9
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "Kudlu Gate Junc",
+      "count": 6
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "AnepalyaJunc",
+      "count": 5
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "GarebhavipalyaJunc",
+      "count": 5
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "Marigowda-TavarkereRdJunc",
+      "count": 5
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "AdugodiJunc",
+      "count": 2
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "JohnsonMarket",
+      "count": 2
+    },
+    {
+      "corridor": "Hosur Road",
+      "junction": "UCO Bank(Forum)",
+      "count": 2
+    },
+    {
+      "corridor": "IRR(Thanisandra road)",
+      "junction": "KoramangalaWaterTankJunc",
+      "count": 29
+    },
+    {
+      "corridor": "IRR(Thanisandra road)",
+      "junction": "BDA Junctio-Koramangala",
+      "count": 6
+    },
+    {
+      "corridor": "IRR(Thanisandra road)",
+      "junction": "Jaipuria-Adugodi",
+      "count": 4
+    },
+    {
+      "corridor": "IRR(Thanisandra road)",
+      "junction": "Srinivagilu(Ejipura)Junc",
+      "count": 4
+    },
+    {
+      "corridor": "IRR(Thanisandra road)",
+      "junction": "BM ShriJunc(CMH-100FtRd)Junc",
+      "count": 3
+    },
+    {
+      "corridor": "IRR(Thanisandra road)",
+      "junction": "SonyworldJunction",
+      "count": 3
+    },
+    {
+      "corridor": "IRR(Thanisandra road)",
+      "junction": "AyyappaTempleJunc",
+      "count": 2
+    },
+    {
+      "corridor": "IRR(Thanisandra road)",
+      "junction": "Indiranasgar13thMainJunc",
+      "count": 2
+    },
+    {
+      "corridor": "Magadi Road",
+      "junction": "LeprosyhospitalJunc",
+      "count": 20
+    },
+    {
+      "corridor": "Magadi Road",
+      "junction": "Sumanhalli",
+      "count": 16
+    },
+    {
+      "corridor": "Magadi Road",
+      "junction": "Srigandakaval",
+      "count": 14
+    },
+    {
+      "corridor": "Magadi Road",
+      "junction": "PrasannaJunction",
+      "count": 6
+    },
+    {
+      "corridor": "Magadi Road",
+      "junction": "JaiMuniRaoCircle",
+      "count": 5
+    },
+    {
+      "corridor": "Magadi Road",
+      "junction": "KHB Junction",
+      "count": 1
+    },
+    {
+      "corridor": "Magadi Road",
+      "junction": "YeshwanthpuraCircle",
+      "count": 1
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "SatteliteBusStandJunc",
+      "count": 43
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "toll gate mysore road",
+      "count": 33
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "TownhallJunction",
+      "count": 30
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "PoliceCornerJunc",
+      "count": 23
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "RajeshwariJunc",
+      "count": 20
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "BangaloreBodyBuildersJunc",
+      "count": 19
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "HudsonCircle",
+      "count": 15
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "KIMCO Junction",
+      "count": 15
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "UlsoorGateJunc",
+      "count": 12
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "MotherTeressaCircle",
+      "count": 10
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "N R SquareJunc",
+      "count": 10
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "SiddalingaiahCircle",
+      "count": 10
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "Richmond circle jn",
+      "count": 9
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "SirsiCircle",
+      "count": 9
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "Dr TCM RoyanRd near AmbedkarStatue",
+      "count": 8
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "UniversityJunc(Janabharti)",
+      "count": 8
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "K R MarketJunction",
+      "count": 7
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "ShivajiTalkiesJunc",
+      "count": 7
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "Ashoknagar Junction(ShoolayCircle)",
+      "count": 6
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "A S CharStreet-MysoreRdJunc",
+      "count": 5
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "AshirwadamCircle",
+      "count": 5
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+      "count": 5
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "OldPoliceStation-Ashoknagar",
+      "count": 5
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "BiryandCircle",
+      "count": 4
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "BloodBankCircle",
+      "count": 4
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "MysoreRd--MadhuPetrolBunkJunction",
+      "count": 4
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "OperaHouseJunc",
+      "count": 4
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "CashPharmacyJunction",
+      "count": 3
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "DevangaHostelJunction",
+      "count": 2
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "JohnsonMarket",
+      "count": 1
+    },
+    {
+      "corridor": "Mysore Road",
+      "junction": "RoyanCircle-Chamrajpete",
+      "count": 1
+    },
+    {
+      "corridor": "ORR East 1",
+      "junction": "SilkBoardJunc",
+      "count": 24
+    },
+    {
+      "corridor": "ORR East 1",
+      "junction": "Deverabeesanahalli-ORR Junc",
+      "count": 15
+    },
+    {
+      "corridor": "ORR East 1",
+      "junction": "IbblurJunction'",
+      "count": 13
+    },
+    {
+      "corridor": "ORR East 1",
+      "junction": "Kadubeesanahalli-ORR Junc",
+      "count": 11
+    },
+    {
+      "corridor": "ORR East 1",
+      "junction": "AgaraJunction",
+      "count": 5
+    },
+    {
+      "corridor": "ORR East 1",
+      "junction": "5thMainHSR",
+      "count": 3
+    },
+    {
+      "corridor": "ORR East 1",
+      "junction": "Bellandur Junction, Outer ring road",
+      "count": 3
+    },
+    {
+      "corridor": "ORR East 1",
+      "junction": "HSR14thMainJunc",
+      "count": 2
+    },
+    {
+      "corridor": "ORR East 1",
+      "junction": "MaratahalliBridgeJunc",
+      "count": 2
+    },
+    {
+      "corridor": "ORR East 2",
+      "junction": "MaratahalliBridgeJunc",
+      "count": 2
+    },
+    {
+      "corridor": "ORR North 1",
+      "junction": "VeerannapalyaJunction(BEL,HO)",
+      "count": 30
+    },
+    {
+      "corridor": "ORR North 1",
+      "junction": "HoramavuJunction",
+      "count": 12
+    },
+    {
+      "corridor": "ORR North 1",
+      "junction": "Nagavara-ORR Junction",
+      "count": 12
+    },
+    {
+      "corridor": "ORR North 1",
+      "junction": "RamamurthyNagarJunction",
+      "count": 9
+    },
+    {
+      "corridor": "ORR North 1",
+      "junction": "KalyanNagar-ORR Junc",
+      "count": 6
+    },
+    {
+      "corridor": "ORR North 1",
+      "junction": "HennurRoad-ORR Junc",
+      "count": 4
+    },
+    {
+      "corridor": "ORR North 1",
+      "junction": "Kammanahalli-RingRoadJunction",
+      "count": 4
+    },
+    {
+      "corridor": "ORR North 1",
+      "junction": "HebbalFlyoverJunc",
+      "count": 3
+    },
+    {
+      "corridor": "ORR North 1",
+      "junction": "YeshwanthpuraCircle",
+      "count": 1
+    },
+    {
+      "corridor": "ORR North 2",
+      "junction": "BEL Circle",
+      "count": 25
+    },
+    {
+      "corridor": "ORR North 2",
+      "junction": "GoruguntepalyaJunc",
+      "count": 3
+    },
+    {
+      "corridor": "ORR North 2",
+      "junction": "KuvempuCircle",
+      "count": 3
+    },
+    {
+      "corridor": "ORR North 2",
+      "junction": "BhadrappaLayout",
+      "count": 2
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "MysoreRd-RingRdJunc(Nayandanahallii)",
+      "count": 13
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "KatriguppeJunction",
+      "count": 12
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "KadirenahalliJunction",
+      "count": 8
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "JP Nagar 15th cross junction",
+      "count": 7
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "ItmaduJunction",
+      "count": 6
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "KanakapuraRd-RingRdJunction",
+      "count": 6
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "PES-DevegowdaCircle",
+      "count": 4
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "Delmia-Jayanagar",
+      "count": 3
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "DevegowdaPetrolBunkJunc",
+      "count": 2
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "KamakyaJunction",
+      "count": 1
+    },
+    {
+      "corridor": "ORR West 1",
+      "junction": "NCERT Junction",
+      "count": 1
+    },
+    {
+      "corridor": "Old Airport Road",
+      "junction": "ISRO Junction-Airport rd",
+      "count": 9
+    },
+    {
+      "corridor": "Old Airport Road",
+      "junction": "DomlurWaterTank",
+      "count": 8
+    },
+    {
+      "corridor": "Old Airport Road",
+      "junction": "Yemalur cross junc",
+      "count": 4
+    },
+    {
+      "corridor": "Old Airport Road",
+      "junction": "KuvempuCircleJunc,HAL MainGate",
+      "count": 1
+    },
+    {
+      "corridor": "Old Airport Road",
+      "junction": "MaratahalliBridgeJunc",
+      "count": 1
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "BigBazaarJunction(OldMadrasRd)",
+      "count": 24
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "OldMadrasRd-Indranagar100ftRdJunc",
+      "count": 12
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "Shivajinagar(BRV)Junction",
+      "count": 11
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "TrinityCircle",
+      "count": 11
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "RamaiahCircle-UlsoorPoliceStation",
+      "count": 9
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "AnilKumbleCircle",
+      "count": 8
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "OldMadrasRd-80FeetRdJunc",
+      "count": 8
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "OldMadrasRd-NGEF Junc",
+      "count": 8
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "CMH Rd-AdarshTheaterJunc",
+      "count": 5
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "KamrajRdJunction",
+      "count": 5
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "MayohallJunction",
+      "count": 5
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "QueensStatueCircle",
+      "count": 5
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "AnjaneyaTempleJunc",
+      "count": 3
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "OldMadrasRd-DoubleRdJunc",
+      "count": 3
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "OldMadrasRd-SuddaguntepalyaRdJunc",
+      "count": 3
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "WebbsCircle",
+      "count": 3
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "Arts&CraftsCircle",
+      "count": 2
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "BegumMahalJunc",
+      "count": 2
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "ManipalCentreJunc",
+      "count": 2
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "OperaHouseJunc",
+      "count": 2
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "OldMadrasRd-BMTC DepotJunc",
+      "count": 1
+    },
+    {
+      "corridor": "Old Madras Road",
+      "junction": "TamarikannanJunc",
+      "count": 1
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "JalahalliCross(SM Circle)",
+      "count": 32
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "YeshwanthpuraCircle",
+      "count": 31
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "GokuldasImagesJunc",
+      "count": 28
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "HesaraghattaJunction",
+      "count": 28
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "SRS Peenya Junc",
+      "count": 20
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "GoruguntepalyaJunc",
+      "count": 17
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "Chokasandra (Tumkur road)",
+      "count": 14
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "TumkurRdMarappanapalyaJunc",
+      "count": 13
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "PeenyaPoliceStation",
+      "count": 12
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "MS RamaiahJunc(TollGate)",
+      "count": 11
+    },
+    {
+      "corridor": "Tumkur Road",
+      "junction": "TataInstituteCircle",
+      "count": 11
+    },
+    {
+      "corridor": "Varthur Road",
+      "junction": "MaratahalliBridgeJunc",
+      "count": 11
+    },
+    {
+      "corridor": "Varthur Road",
+      "junction": "KundanahalliGateJunc",
+      "count": 10
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "KIMCO Junction",
+      "count": 16
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "DhobiGhatJunc",
+      "count": 7
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "MC Circle",
+      "count": 6
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "Rajajinagar19thMainJunc",
+      "count": 6
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "VijayanagarBusStandJunction",
+      "count": 6
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "MahalaxmiLayoutEntranceJunc",
+      "count": 4
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "5thMainRPC Layout-Vijayanagar",
+      "count": 3
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "ModiBridgeJunction",
+      "count": 3
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "NavarangTheatreJunction",
+      "count": 3
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "ShivanahalliJunctionWOC",
+      "count": 3
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "CholurpalyaJunction(MagadiRd)",
+      "count": 2
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "Dr RajkumarRd-10thCrossRdJunc",
+      "count": 2
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "Fire Force Junction",
+      "count": 2
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "Rajajinagagr1stBlockJunction",
+      "count": 2
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "AttiguppeCircleJunction",
+      "count": 1
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "BhashyamCircle",
+      "count": 1
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "ChandraLayoutJunc-nearWaterTank",
+      "count": 1
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "ModiHospital",
+      "count": 1
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "PuttammaChoultryNagarbhavi",
+      "count": 1
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "RajarajeshwariKalyanaMantapaJunc",
+      "count": 1
+    },
+    {
+      "corridor": "West of Chord Road",
+      "junction": "TumkurRdMarappanapalyaJunc",
+      "count": 1
+    }
+  ],
+  "model_feature_cols": [
+    "hour_of_day",
+    "day_of_week",
+    "is_weekend",
+    "month",
+    "past_7d_count",
+    "past_30d_count"
+  ],
+  "bpr_params": {
+    "alpha": 0.15,
+    "beta": 4,
+    "free_flow_speed_kmph": 40,
+    "local_access_speed_kmph": 25
+  },
+  "protected_routes": [
+    "Bannerghata Road",
+    "CBD 1"
+  ],
+  "protected_vc_threshold": 0.55,
+  "officer_roster": [
+    {
+      "officer_id": "OFC-001",
+      "police_station": "Adugodi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-002",
+      "police_station": "Adugodi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-003",
+      "police_station": "Adugodi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-004",
+      "police_station": "Adugodi",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-005",
+      "police_station": "Adugodi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-006",
+      "police_station": "Adugodi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-007",
+      "police_station": "Adugodi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-008",
+      "police_station": "Adugodi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-009",
+      "police_station": "Ashok Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-010",
+      "police_station": "Ashok Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-011",
+      "police_station": "Ashok Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-012",
+      "police_station": "Banashankari",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-013",
+      "police_station": "Banashankari",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-014",
+      "police_station": "Banashankari",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-015",
+      "police_station": "Banaswadi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-016",
+      "police_station": "Banaswadi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-017",
+      "police_station": "Banaswadi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-018",
+      "police_station": "Basavanagudi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-019",
+      "police_station": "Basavanagudi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-020",
+      "police_station": "Basavanagudi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-021",
+      "police_station": "Basavanagudi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-022",
+      "police_station": "Basavanagudi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-023",
+      "police_station": "Basavanagudi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-024",
+      "police_station": "Basavanagudi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-025",
+      "police_station": "Bellandur",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-026",
+      "police_station": "Bellandur",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-027",
+      "police_station": "Bellandur",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-028",
+      "police_station": "Bellandur",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-029",
+      "police_station": "Bellandur",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-030",
+      "police_station": "Bellandur",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-031",
+      "police_station": "Bellandur",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-032",
+      "police_station": "Byatarayanapura",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-033",
+      "police_station": "Byatarayanapura",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-034",
+      "police_station": "Byatarayanapura",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-035",
+      "police_station": "Byatarayanapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-036",
+      "police_station": "Byatarayanapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-037",
+      "police_station": "Byatarayanapura",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-038",
+      "police_station": "Byatarayanapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-039",
+      "police_station": "Byatarayanapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-040",
+      "police_station": "Chamarajpet",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-041",
+      "police_station": "Chamarajpet",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-042",
+      "police_station": "Chamarajpet",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-043",
+      "police_station": "Chamarajpet",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-044",
+      "police_station": "Chamarajpet",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-045",
+      "police_station": "Chamarajpet",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-046",
+      "police_station": "Chikkabanavara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-047",
+      "police_station": "Chikkabanavara",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-048",
+      "police_station": "Chikkabanavara",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-049",
+      "police_station": "Chikkabanavara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-050",
+      "police_station": "Chikkabanavara",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-051",
+      "police_station": "Chikkabanavara",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-052",
+      "police_station": "Chikkabanavara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-053",
+      "police_station": "Chikkabanavara",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-054",
+      "police_station": "Chikkajala",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-055",
+      "police_station": "Chikkajala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-056",
+      "police_station": "Chikkajala",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-057",
+      "police_station": "Chikkajala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-058",
+      "police_station": "Chikkajala",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-059",
+      "police_station": "Chikkajala",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-060",
+      "police_station": "Chikkajala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-061",
+      "police_station": "City Market",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-062",
+      "police_station": "City Market",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-063",
+      "police_station": "City Market",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-064",
+      "police_station": "City Market",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-065",
+      "police_station": "Cubbon Park",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-066",
+      "police_station": "Cubbon Park",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-067",
+      "police_station": "Cubbon Park",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-068",
+      "police_station": "Cubbon Park",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-069",
+      "police_station": "Cubbon Park",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-070",
+      "police_station": "Cubbon Park",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-071",
+      "police_station": "Devanahalli Airport",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-072",
+      "police_station": "Devanahalli Airport",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-073",
+      "police_station": "Devanahalli Airport",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-074",
+      "police_station": "Devanahalli Airport",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-075",
+      "police_station": "Devanahalli Airport",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-076",
+      "police_station": "Electronic City",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-077",
+      "police_station": "Electronic City",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-078",
+      "police_station": "Electronic City",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-079",
+      "police_station": "Electronic City",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-080",
+      "police_station": "Electronic City",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-081",
+      "police_station": "Electronic City",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-082",
+      "police_station": "Electronic City",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-083",
+      "police_station": "Electronic City",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-084",
+      "police_station": "HAL Old Airport",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-085",
+      "police_station": "HAL Old Airport",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-086",
+      "police_station": "HAL Old Airport",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-087",
+      "police_station": "HAL Old Airport",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-088",
+      "police_station": "HAL Old Airport",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-089",
+      "police_station": "HAL Old Airport",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-090",
+      "police_station": "HSR Layout",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-091",
+      "police_station": "HSR Layout",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-092",
+      "police_station": "HSR Layout",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-093",
+      "police_station": "HSR Layout",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-094",
+      "police_station": "HSR Layout",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-095",
+      "police_station": "HSR Layout",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-096",
+      "police_station": "HSR Layout",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-097",
+      "police_station": "HSR Layout",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-098",
+      "police_station": "Halasur",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-099",
+      "police_station": "Halasur",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-100",
+      "police_station": "Halasur",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-101",
+      "police_station": "Halasur",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-102",
+      "police_station": "Halasuru Gate",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-103",
+      "police_station": "Halasuru Gate",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-104",
+      "police_station": "Halasuru Gate",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-105",
+      "police_station": "Halasuru Gate",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-106",
+      "police_station": "Halasuru Gate",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-107",
+      "police_station": "Halasuru Gate",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-108",
+      "police_station": "Halasuru Gate",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-109",
+      "police_station": "Halasuru Gate",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-110",
+      "police_station": "Hebbala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-111",
+      "police_station": "Hebbala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-112",
+      "police_station": "Hebbala",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-113",
+      "police_station": "Hebbala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-114",
+      "police_station": "Hebbala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-115",
+      "police_station": "Hebbala",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-116",
+      "police_station": "Hebbala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-117",
+      "police_station": "Hebbala",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-118",
+      "police_station": "Hennuru",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-119",
+      "police_station": "Hennuru",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-120",
+      "police_station": "Hennuru",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-121",
+      "police_station": "Hennuru",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-122",
+      "police_station": "Hennuru",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-123",
+      "police_station": "High ground",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-124",
+      "police_station": "High ground",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-125",
+      "police_station": "High ground",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-126",
+      "police_station": "Hulimavu",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-127",
+      "police_station": "Hulimavu",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-128",
+      "police_station": "Hulimavu",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-129",
+      "police_station": "Hulimavu",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-130",
+      "police_station": "J.P. Nagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-131",
+      "police_station": "J.P. Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-132",
+      "police_station": "J.P. Nagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-133",
+      "police_station": "J.P. Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-134",
+      "police_station": "J.P. Nagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-135",
+      "police_station": "J.P. Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-136",
+      "police_station": "Jalahalli",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-137",
+      "police_station": "Jalahalli",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-138",
+      "police_station": "Jalahalli",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-139",
+      "police_station": "Jayanagara",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-140",
+      "police_station": "Jayanagara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-141",
+      "police_station": "Jayanagara",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-142",
+      "police_station": "Jayanagara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-143",
+      "police_station": "Jayanagara",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-144",
+      "police_station": "Jayanagara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-145",
+      "police_station": "Jayanagara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-146",
+      "police_station": "Jayanagara",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-147",
+      "police_station": "Jeevanbheemanagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-148",
+      "police_station": "Jeevanbheemanagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-149",
+      "police_station": "Jeevanbheemanagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-150",
+      "police_station": "Jeevanbheemanagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-151",
+      "police_station": "Jeevanbheemanagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-152",
+      "police_station": "Jeevanbheemanagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-153",
+      "police_station": "Jnanabharathi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-154",
+      "police_station": "Jnanabharathi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-155",
+      "police_station": "Jnanabharathi",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-156",
+      "police_station": "Jnanabharathi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-157",
+      "police_station": "Jnanabharathi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-158",
+      "police_station": "Jnanabharathi",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-159",
+      "police_station": "Jnanabharathi",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-160",
+      "police_station": "K.G. Halli",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-161",
+      "police_station": "K.G. Halli",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-162",
+      "police_station": "K.G. Halli",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-163",
+      "police_station": "K.G. Halli",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-164",
+      "police_station": "K.R. Pura",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-165",
+      "police_station": "K.R. Pura",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-166",
+      "police_station": "K.R. Pura",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-167",
+      "police_station": "K.S. Layout",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-168",
+      "police_station": "K.S. Layout",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-169",
+      "police_station": "K.S. Layout",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-170",
+      "police_station": "Kamakshipalya",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-171",
+      "police_station": "Kamakshipalya",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-172",
+      "police_station": "Kamakshipalya",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-173",
+      "police_station": "Kamakshipalya",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-174",
+      "police_station": "Kengeri",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-175",
+      "police_station": "Kengeri",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-176",
+      "police_station": "Kengeri",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-177",
+      "police_station": "Kodigehalli",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-178",
+      "police_station": "Kodigehalli",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-179",
+      "police_station": "Kodigehalli",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-180",
+      "police_station": "Kodigehalli",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-181",
+      "police_station": "Kodigehalli",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-182",
+      "police_station": "Kodigehalli",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-183",
+      "police_station": "Kodigehalli",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-184",
+      "police_station": "Madiwala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-185",
+      "police_station": "Madiwala",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-186",
+      "police_station": "Madiwala",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-187",
+      "police_station": "Madiwala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-188",
+      "police_station": "Madiwala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-189",
+      "police_station": "Madiwala",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-190",
+      "police_station": "Madiwala",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-191",
+      "police_station": "Magadi Road",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-192",
+      "police_station": "Magadi Road",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-193",
+      "police_station": "Magadi Road",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-194",
+      "police_station": "Magadi Road",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-195",
+      "police_station": "Magadi Road",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-196",
+      "police_station": "Magadi Road",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-197",
+      "police_station": "Magadi Road",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-198",
+      "police_station": "Magadi Road",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-199",
+      "police_station": "Mahadevapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-200",
+      "police_station": "Mahadevapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-201",
+      "police_station": "Mahadevapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-202",
+      "police_station": "Malleshwaram",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-203",
+      "police_station": "Malleshwaram",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-204",
+      "police_station": "Malleshwaram",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-205",
+      "police_station": "Malleshwaram",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-206",
+      "police_station": "Malleshwaram",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-207",
+      "police_station": "Mico Layout",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-208",
+      "police_station": "Mico Layout",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-209",
+      "police_station": "Mico Layout",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-210",
+      "police_station": "Mico Layout",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-211",
+      "police_station": "Peenya",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-212",
+      "police_station": "Peenya",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-213",
+      "police_station": "Peenya",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-214",
+      "police_station": "Pulikeshinagar(F.Town)",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-215",
+      "police_station": "Pulikeshinagar(F.Town)",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-216",
+      "police_station": "Pulikeshinagar(F.Town)",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-217",
+      "police_station": "Pulikeshinagar(F.Town)",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-218",
+      "police_station": "Pulikeshinagar(F.Town)",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-219",
+      "police_station": "R.T. Nagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-220",
+      "police_station": "R.T. Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-221",
+      "police_station": "R.T. Nagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-222",
+      "police_station": "R.T. Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-223",
+      "police_station": "R.T. Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-224",
+      "police_station": "R.T. Nagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-225",
+      "police_station": "Rajajinagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-226",
+      "police_station": "Rajajinagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-227",
+      "police_station": "Rajajinagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-228",
+      "police_station": "Rajajinagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-229",
+      "police_station": "Rajajinagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-230",
+      "police_station": "Rajajinagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-231",
+      "police_station": "Sadashivanagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-232",
+      "police_station": "Sadashivanagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-233",
+      "police_station": "Sadashivanagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-234",
+      "police_station": "Sadashivanagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-235",
+      "police_station": "Sadashivanagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-236",
+      "police_station": "Sadashivanagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-237",
+      "police_station": "Sadashivanagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-238",
+      "police_station": "Sadashivanagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-239",
+      "police_station": "Sheshadripuram",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-240",
+      "police_station": "Sheshadripuram",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-241",
+      "police_station": "Sheshadripuram",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-242",
+      "police_station": "Sheshadripuram",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-243",
+      "police_station": "Sheshadripuram",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-244",
+      "police_station": "Sheshadripuram",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-245",
+      "police_station": "Sheshadripuram",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-246",
+      "police_station": "Sheshadripuram",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-247",
+      "police_station": "Shivajinagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-248",
+      "police_station": "Shivajinagar",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-249",
+      "police_station": "Shivajinagar",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-250",
+      "police_station": "Shivajinagar",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-251",
+      "police_station": "Thalagattapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-252",
+      "police_station": "Thalagattapura",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-253",
+      "police_station": "Thalagattapura",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-254",
+      "police_station": "Thalagattapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-255",
+      "police_station": "Thalagattapura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-256",
+      "police_station": "Thalagattapura",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-257",
+      "police_station": "Upparpet",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-258",
+      "police_station": "Upparpet",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-259",
+      "police_station": "Upparpet",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-260",
+      "police_station": "Upparpet",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-261",
+      "police_station": "Upparpet",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-262",
+      "police_station": "Upparpet",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-263",
+      "police_station": "Upparpet",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-264",
+      "police_station": "V.V.Puram (C.Pet)",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-265",
+      "police_station": "V.V.Puram (C.Pet)",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-266",
+      "police_station": "V.V.Puram (C.Pet)",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-267",
+      "police_station": "V.V.Puram (C.Pet)",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-268",
+      "police_station": "Vijayanagara",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-269",
+      "police_station": "Vijayanagara",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-270",
+      "police_station": "Vijayanagara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-271",
+      "police_station": "Vijayanagara",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-272",
+      "police_station": "Vijayanagara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-273",
+      "police_station": "Vijayanagara",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-274",
+      "police_station": "Whitefield",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-275",
+      "police_station": "Whitefield",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-276",
+      "police_station": "Whitefield",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-277",
+      "police_station": "Whitefield",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-278",
+      "police_station": "Whitefield",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-279",
+      "police_station": "Whitefield",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-280",
+      "police_station": "Wilson Garden",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-281",
+      "police_station": "Wilson Garden",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-282",
+      "police_station": "Wilson Garden",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-283",
+      "police_station": "Wilson Garden",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-284",
+      "police_station": "Wilson Garden",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-285",
+      "police_station": "Wilson Garden",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-286",
+      "police_station": "Wilson Garden",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-287",
+      "police_station": "Wilson Garden",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-288",
+      "police_station": "Yelahanka",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-289",
+      "police_station": "Yelahanka",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-290",
+      "police_station": "Yelahanka",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-291",
+      "police_station": "Yelahanka",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-292",
+      "police_station": "Yelahanka",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-293",
+      "police_station": "Yelahanka",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-294",
+      "police_station": "Yelahanka",
+      "rank": "Head Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-295",
+      "police_station": "Yeshwanthpura",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-296",
+      "police_station": "Yeshwanthpura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-297",
+      "police_station": "Yeshwanthpura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-298",
+      "police_station": "Yeshwanthpura",
+      "rank": "Sub-Inspector",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-299",
+      "police_station": "Yeshwanthpura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-300",
+      "police_station": "Yeshwanthpura",
+      "rank": "Police Constable",
+      "status": "available"
+    },
+    {
+      "officer_id": "OFC-301",
+      "police_station": "Yeshwanthpura",
+      "rank": "Police Constable",
+      "status": "available"
+    }
+  ]
+}
