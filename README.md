@@ -1,73 +1,202 @@
-# BlockBuster Backend
+BlockBuster Backend
 
-Plain FastAPI port of the validated Colab logic: Layer 1 prediction, Layer 2
-simulation (BPR flow + critical-route stress test), Layer 3 routing
-(Proposer/Adversary + travel-time officer ETA), and the Judging Panel
-checklist. Every function here is a 1:1 port of what was already validated
-against real output in the notebook \u2014 no new logic was introduced.
+AI-powered disaster response backend built with FastAPI, designed for real-time traffic disruption forecasting, network stress testing, and emergency route planning. The system integrates predictive analytics, traffic simulation, adversarial routing, and decision support into a single API for disaster management.
 
-Not yet included (next steps): LLM Playbook Renderer, Public Advisory
-Generator, websocket/SSE log streaming, Twilio SMS dispatch. Those come next.
+The backend is a production-ready port of the validated research notebook, preserving the original logic while exposing it through REST APIs.
 
-## Setup
+---
 
-```bash
+Features
+
+Layer 1: Risk Forecasting
+
+- Predicts disruption risk for a given corridor and timestamp.
+- Uses the validated predictive model without altering the original methodology.
+
+Layer 2: Network Simulation
+
+- Simulates disaster scenarios by blocking selected corridors.
+- Updates traffic flow using the BPR congestion model.
+- Computes Volume-to-Capacity (V/C) ratios for all corridors.
+
+Critical Route Protection
+
+- Automatically checks whether protected emergency corridors are affected.
+- Performs rerouting when necessary to maintain network resilience.
+- Returns simulation status:
+  - "PASSED"
+  - "PASSED_AFTER_REROUTE"
+  - "FAILED_PROTECTED_ROUTE"
+
+Layer 3: Intelligent Routing
+
+- Generates diversion routes using a Proposer–Adversary framework.
+- Estimates travel times for emergency responders.
+- Identifies nearest available officers.
+
+Decision Support
+
+- Produces a complete operational playbook.
+- Generates a Judging Panel checklist for rapid incident assessment.
+- Consolidates network state, routing decisions, and approval recommendations.
+
+---
+
+Tech Stack
+
+- FastAPI
+- Python
+- Pydantic
+- NetworkX
+- NumPy
+- Pandas
+
+---
+
+Project Structure
+
+blockbuster-backend/
+│
+├── app/
+│   ├── main.py
+│   ├── data_loader.py
+│   ├── routes/
+│   ├── services/
+│   └── models/
+│
+├── data/
+│   ├── blockbuster_export_final.json
+│   ├── blockbuster_panel.json
+│   └── blockbuster_model.json
+│
+├── requirements.txt
+└── README.md
+
+---
+
+Installation
+
+Clone the repository and create a virtual environment:
+
+git clone <repo-url>
 cd blockbuster-backend
+
 python3 -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
+
+# Linux / macOS
+source venv/bin/activate
+
+# Windows
+venv\Scripts\activate
+
 pip install -r requirements.txt
-```
 
-## Run locally
+---
 
-```bash
+Running the Server
+
+Start the FastAPI application:
+
 uvicorn app.main:app --reload --port 8000
-```
 
-Visit http://localhost:8000/docs for the interactive Swagger UI \u2014 every
-endpoint below can be tested directly from the browser there.
+API documentation is automatically available at:
 
-## Endpoints
+http://localhost:8000/docs
 
-- `GET /health` \u2014 sanity check, returns corridor count
-- `GET /corridors` \u2014 list all 21 corridor names
-- `POST /forecast` \u2014 Layer 1 risk score for a corridor + timestamp
-- `POST /simulate` \u2014 inject a disaster, get the resulting network state
-- `POST /stress-test` \u2014 same as simulate, but also runs the critical-route
-  protection check and re-solves if Bannerghata Road / CBD 1 are at risk
-- `POST /route` \u2014 Proposer/Adversary diversion route with travel-time ETA
-- `POST /playbook` \u2014 the full pipeline in one call: stress test, route,
-  officer ETA, and the Judging Panel's Pending Approval checklist
+Interactive Swagger UI allows every endpoint to be tested directly.
 
-## Example: full playbook request
+---
 
-```bash
+API Endpoints
+
+Method| Endpoint| Description
+GET| "/health"| Health check and corridor count
+GET| "/corridors"| List all available traffic corridors
+POST| "/forecast"| Generate disruption risk predictions
+POST| "/simulate"| Simulate disaster impact on the network
+POST| "/stress-test"| Run simulation with protected-route validation
+POST| "/route"| Compute optimal diversion route and ETA
+POST| "/playbook"| Execute the complete emergency response pipeline
+
+---
+
+Example: Full Playbook
+
 curl -X POST http://localhost:8000/playbook \
-  -H "Content-Type: application/json" \
-  -d '{
-    "blocked_corridors": ["Mysore Road", "Bellary Road 1"],
-    "hour": 18,
-    "origin": "Tumkur Road",
-    "destination": "Old Madras Road"
-  }'
-```
+-H "Content-Type: application/json" \
+-d '{
+  "blocked_corridors": [
+    "Mysore Road",
+    "Bellary Road 1"
+  ],
+  "hour": 18,
+  "origin": "Tumkur Road",
+  "destination": "Old Madras Road"
+}'
 
-Expect a JSON response containing `network_state` (21 corridors with V/C and
-color), `stress_test` (PASSED / PASSED_AFTER_REROUTE / FAILED_PROTECTED_ROUTE),
-`diversion` (the chosen route + ETA in minutes), `nearest_officers`, and
-`judging_panel` (the Pending Approval checklist with APPROVE / REVIEW_REQUIRED).
+Response includes:
 
-## Example: forecast request
+- Network state
+- Corridor congestion levels
+- Stress test result
+- Diversion route
+- Estimated travel time
+- Nearest emergency officers
+- Decision panel recommendations
 
-```bash
+---
+
+Example: Risk Forecast
+
 curl -X POST http://localhost:8000/forecast \
-  -H "Content-Type: application/json" \
-  -d '{"corridor": "Mysore Road", "timestamp": "2026-07-04T09:00:00Z"}'
-```
+-H "Content-Type: application/json" \
+-d '{
+  "corridor": "Mysore Road",
+  "timestamp": "2026-07-04T09:00:00Z"
+}'
 
-## Data files
+---
 
-`data/blockbuster_export_final.json`, `data/blockbuster_panel.json`, and
-`data/blockbuster_model.json` are loaded once at startup by
-`app/data_loader.py`. If you regenerate any of these from the notebook,
-just drop the new files in here with the same names and restart the server.
+Data Management
+
+The backend loads model and network assets during startup:
+
+data/blockbuster_export_final.json
+data/blockbuster_panel.json
+data/blockbuster_model.json
+
+To update the system with newly generated outputs from the research notebook:
+
+1. Replace the existing files.
+2. Keep the filenames unchanged.
+3. Restart the server.
+
+No additional configuration is required.
+
+---
+
+Roadmap
+
+Completed
+
+- Risk forecasting
+- Traffic simulation
+- Protected-route stress testing
+- Adversarial routing
+- Officer ETA estimation
+- Decision panel integration
+- FastAPI REST endpoints
+
+In Progress
+
+- LLM-powered Playbook Renderer
+- Public Advisory Generator
+- WebSocket/SSE live event streaming
+- Twilio SMS emergency notifications
+- Real-time dashboard integration
+
+---
+
+Vision
+
+BlockBuster aims to provide a unified AI-assisted disaster response platform capable of forecasting disruptions, protecting critical infrastructure, optimizing emergency mobility, and supporting rapid operational decision-making during urban crises.
