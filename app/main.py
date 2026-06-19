@@ -32,6 +32,28 @@ from .simulation import stress_test_plan_stream
 from .sms import send_public_advisory
 from .schemas import SMSDispatchRequest
 
+from .officers import get_officer_summary
+from .barricades import generate_barricade_plan
+from .signals import generate_signal_overrides
+from .routing import nearest_corridor_to_point
+from .incidents import create_incident, list_incidents, get_incident, update_incident, delete_incident
+from .schemas import (
+    BarricadeRequest,
+    SignalOverrideRequest,
+    IncidentCreateRequest,
+    IncidentUpdateRequest,
+)
+from .corridor_geo import get_corridor_centroids, get_corridor_graph_edges
+
+from typing import Optional
+from .stations import get_station_locations
+from .network_status import get_baseline_network_state
+from .signals_overview import get_signals_overview
+from .analytics import get_analytics_summary, get_corridor_history
+from .incidents import deploy_to_incident, resolve_incident
+from .scheduled_events import create_event, list_events, get_event, update_event, delete_event, preview_event_impact
+from .schemas import IncidentDeployRequest, ScheduledEventRequest, ScheduledEventUpdateRequest
+
 app = FastAPI(title="BlockBuster API")
 
 # Loosen this to your actual frontend origin before deploying for real
@@ -212,3 +234,157 @@ def sms_dispatch(req: SMSDispatchRequest):
             "error": str(e),
             "note": "Use fallback video / manual SMS if this fails"
         }
+    
+@app.get("/officers/summary")
+def officers_summary():
+    return get_officer_summary()
+
+
+@app.get("/junctions")
+def get_junctions():
+    return {"junctions": data.junction_candidates.to_dict("records")}
+
+
+@app.get("/nearest-corridor")
+def nearest_corridor(lat: float, lon: float):
+    corridor, dist_km = nearest_corridor_to_point(lat, lon)
+    return {"corridor": corridor, "distance_km": round(dist_km, 3)}
+
+
+@app.post("/barricades")
+def barricades_endpoint(req: BarricadeRequest):
+    return generate_barricade_plan(req.blocked_corridors, req.network_state)
+
+
+@app.post("/signal-override")
+def signal_override_endpoint(req: SignalOverrideRequest):
+    return generate_signal_overrides(req.network_state)
+
+
+@app.post("/incidents")
+def incidents_create(req: IncidentCreateRequest):
+    return create_incident(req.blocked_corridors, req.hour, req.label)
+
+
+@app.get("/incidents")
+def incidents_list(status: Optional[str] = None):
+    return {"incidents": list_incidents(status)}
+
+
+@app.get("/incidents/{incident_id}")
+def incidents_get(incident_id: int):
+    incident = get_incident(incident_id)
+    if incident is None:
+        raise HTTPException(status_code=404, detail="Incident not found")
+    return incident
+
+
+@app.patch("/incidents/{incident_id}")
+def incidents_update(incident_id: int, req: IncidentUpdateRequest):
+    fields = {k: v for k, v in req.dict().items() if v is not None}
+    incident = update_incident(incident_id, **fields)
+    if incident is None:
+        raise HTTPException(status_code=404, detail="Incident not found")
+    return incident
+
+
+@app.delete("/incidents/{incident_id}")
+def incidents_delete(incident_id: int):
+    ok = delete_incident(incident_id)
+    if not ok:
+        raise HTTPException(status_code=404, detail="Incident not found")
+    return {"status": "deleted"}
+
+
+@app.get("/corridor-centroids")
+def corridor_centroids():
+    return {"centroids": get_corridor_centroids()}
+
+
+@app.get("/corridor-graph")
+def corridor_graph():
+    return {"edges": get_corridor_graph_edges()}
+
+
+@app.get("/stations")
+def stations():
+    return {"stations": get_station_locations()}
+
+
+@app.get("/network-status")
+def network_status(hour: int):
+    state = get_baseline_network_state(hour)
+    return sanitize_floats({"network_state": state.to_dict("records")})
+
+
+@app.get("/signals/overview")
+def signals_overview(hour: int):
+    return sanitize_floats(get_signals_overview(hour))
+
+
+@app.post("/incidents/{incident_id}/deploy")
+def incidents_deploy(incident_id: int, req: IncidentDeployRequest):
+    incident = deploy_to_incident(incident_id, req.deployments)
+    if incident is None:
+        raise HTTPException(status_code=404, detail="Incident not found")
+    return incident
+
+
+@app.post("/incidents/{incident_id}/resolve")
+def incidents_resolve(incident_id: int):
+    incident = resolve_incident(incident_id)
+    if incident is None:
+        raise HTTPException(status_code=404, detail="Incident not found")
+    return incident
+
+
+@app.get("/analytics/summary")
+def analytics_summary():
+    return get_analytics_summary()
+
+
+@app.get("/analytics/corridor/{corridor}/history")
+def analytics_corridor_history(corridor: str):
+    return {"corridor": corridor, "history": get_corridor_history(corridor)}
+
+
+@app.post("/scheduled-events")
+def scheduled_events_create(req: ScheduledEventRequest):
+    return create_event(req.label, req.event_type, req.affected_corridors, req.start_time, req.end_time, req.capacity_remaining_pct)
+
+
+@app.get("/scheduled-events")
+def scheduled_events_list(upcoming_only: bool = False):
+    return {"events": list_events(upcoming_only)}
+
+
+@app.get("/scheduled-events/{event_id}")
+def scheduled_events_get(event_id: int):
+    event = get_event(event_id)
+    if event is None:
+        raise HTTPException(status_code=404, detail="Event not found")
+    return event
+
+
+@app.patch("/scheduled-events/{event_id}")
+def scheduled_events_update(event_id: int, req: ScheduledEventUpdateRequest):
+    fields = {k: v for k, v in req.dict().items() if v is not None}
+    event = update_event(event_id, **fields)
+    if event is None:
+        raise HTTPException(status_code=404, detail="Event not found")
+    return event
+
+
+@app.delete("/scheduled-events/{event_id}")
+def scheduled_events_delete(event_id: int):
+    if not delete_event(event_id):
+        raise HTTPException(status_code=404, detail="Event not found")
+    return {"status": "deleted"}
+
+
+@app.get("/scheduled-events/{event_id}/impact")
+def scheduled_events_impact(event_id: int, hour: int):
+    result = preview_event_impact(event_id, hour)
+    if result is None:
+        raise HTTPException(status_code=404, detail="Event not found")
+    return sanitize_floats(result)

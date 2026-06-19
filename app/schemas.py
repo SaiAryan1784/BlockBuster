@@ -40,6 +40,44 @@ class AdvisoryRequest(BaseModel):
     playbook: dict
 
 class SMSDispatchRequest(BaseModel):
-    playbook: dict  # The full /playbook-stream final payload
-    advisory_text: str  # From /advisory endpoint
-    recipients: list  # E.g., ["+919xxxxxxxxx", "+919yyyyyyyyy"]
+    playbook: dict
+    advisory_text: str  
+    recipients: list  
+
+class BarricadeRequest(BaseModel):
+    blocked_corridors: List[str]
+    network_state: List[dict]
+
+
+class SignalOverrideRequest(BaseModel):
+    network_state: List[dict]
+
+
+class IncidentCreateRequest(BaseModel):
+    blocked_corridors: List[str]
+    hour: int
+    label: str = None
+
+
+class IncidentUpdateRequest(BaseModel):
+    status: str = None
+    playbook: dict = None
+
+class IncidentDeployRequest(BaseModel):
+    deployments: List[dict]
+
+
+class ScheduledEventRequest(BaseModel):
+    label: str
+    event_type: str
+    affected_corridors: List[str]
+    start_time: str
+    end_time: str
+    capacity_remaining_pct: float = 0.5
+
+
+class ScheduledEventUpdateRequest(BaseModel):
+    label: str = None
+    status: str = None
+    capacity_remaining_pct: float = None
+
